@@ -1,0 +1,15 @@
+.ui-breadcrumb {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.ui-breadcrumb a {
+    color: #0078ff;
+    text-decoration: none;
+}
+
+.ui-breadcrumb span {
+    color: #555;
+}

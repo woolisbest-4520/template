@@ -1,0 +1,18 @@
+.ui-accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.ui-accordion-header {
+    padding: 12px;
+    cursor: pointer;
+    background: #f5f5f5;
+}
+
+.ui-accordion-content {
+    padding: 12px;
+    display: none;
+}
+
+.ui-accordion-content.open {
+    display: block;
+}

@@ -1,0 +1,23 @@
+.ui-toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ui-toast {
+    background: #333;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 6px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.3s;
+}
+
+.ui-toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}

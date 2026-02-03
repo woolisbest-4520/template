@@ -1,0 +1,27 @@
+.ui-hamburger {
+    width: 32px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.ui-hamburger span {
+    height: 4px;
+    background: white;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.ui-hamburger.open span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.ui-hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.ui-hamburger.open span:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}

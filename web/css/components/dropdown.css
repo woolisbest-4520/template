@@ -1,0 +1,28 @@
+.ui-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.ui-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    display: none;
+    min-width: 120px;
+}
+
+.ui-dropdown-menu.open {
+    display: block;
+}
+
+.ui-dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.ui-dropdown-item:hover {
+    background: #f0f0f0;
+}

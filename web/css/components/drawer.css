@@ -1,0 +1,32 @@
+.ui-drawer {
+    position: fixed;
+    top: 0;
+    width: 260px;
+    height: 100vh;
+    background: #222;
+    color: white;
+    padding: 20px;
+    transition: 0.3s;
+    transform: translateX(-100%);
+}
+
+.ui-drawer.right {
+    right: 0;
+    left: auto;
+    transform: translateX(100%);
+}
+
+.ui-drawer.open {
+    transform: translateX(0);
+}
+
+.ui-drawer-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    display: none;
+}
+
+.ui-drawer-overlay.show {
+    display: block;
+}

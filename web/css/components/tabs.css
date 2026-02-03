@@ -1,0 +1,24 @@
+.ui-tabs {
+    display: flex;
+    gap: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+.ui-tab {
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.ui-tab.active {
+    border-bottom: 2px solid #0078ff;
+    color: #0078ff;
+}
+
+.ui-tab-content {
+    display: none;
+    padding: 16px 0;
+}
+
+.ui-tab-content.active {
+    display: block;
+}

@@ -1,0 +1,12 @@
+.ui-banner {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    background: #0078ff;
+    color: white;
+    display: none;
+}
+
+.ui-banner.show {
+    display: block;
+}

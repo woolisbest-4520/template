@@ -1,0 +1,40 @@
+.ui-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 240px;
+    height: 100vh;
+    background: #222;
+    color: white;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.ui-sidebar.collapsed {
+    width: 60px;
+}
+
+.ui-sidebar .ui-sidebar-item {
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.ui-sidebar .ui-sidebar-item:hover {
+    background: #333;
+}
+
+.ui-sidebar-toggle {
+    position: absolute;
+    right: -40px;
+    top: 20px;
+    width: 32px;
+    height: 32px;
+    background: #222;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
